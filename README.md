@@ -25,6 +25,7 @@ cabal install
 ```
 
 You can run the testsuite as follows:
+(a separate cabal file in the test directory solves the test-dependency cycle)
 ```    
 cabal test
 ```
